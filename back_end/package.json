@@ -1,0 +1,31 @@
+{
+  "name": "back_end",
+  "version": "1.0.0",
+  "description": "Myserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Ishadya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cloudinary": "^2.2.0",
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "stripe": "^15.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
